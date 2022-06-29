@@ -1,0 +1,350 @@
+*{ 
+    margin: 0; 
+    padding:0;
+    font-family: sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.clearfix{
+     clear: both;
+}
+.logo{
+    margin-left: 40px;
+    height: auto;
+    clear: both;
+    position: relative;
+    z-index: 999;
+}
+.wrapper{
+    left: 0;
+    top: 0;
+    border-top: 0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    
+}
+nav{
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    font-size: 18px;
+}
+nav > ul{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+nav a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style: none;
+    transition: 0.5s;
+}
+nav > ul > li > a{
+    padding: 20px 25px;
+    margin-left: 2px;
+}
+/*
+nav ul>li.wrapper > a:after{
+    position: relative;
+    float: right;
+    content: '';
+    margin-left: 10px;
+    margin-right: 8px;
+
+}*/
+nav > ul > li:hover{
+    text-decoration: underline;
+
+}
+.right tr td a:hover{
+    text-decoration: underline;
+}
+.under-two tr td a:hover{
+    text-decoration: underline;
+}
+.under tr td a:hover{
+    text-decoration: underline;
+}
+
+.picture-type > span:hover{
+    color: #333;
+}
+.left > ul > li > a:hover{
+    color: blue;
+}
+nav > ul > li#lloogg:hover{
+    border: none;
+    background-color: white;
+}
+nav ul.menu-area{
+    
+    background: white;
+    border-top: 5px solid #164c82;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    z-index: 1;
+    position: absolute;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    top: -9999px;
+    left: 0;
+}
+nav ul li:hover ul.menu-area{
+    top: 100%;
+}
+
+nav ul.menu-area table tr td{
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+      
+}
+.right{
+    padding :20px ;
+    margin: 20px;
+    width: 50%;
+    margin-left: 200px;
+    
+}
+.under{
+    width: 250px;
+    margin-left: 10px;
+}
+.under-two{
+    margin-left: 210px;
+}
+
+.left{
+    margin-left: 100px;
+    padding: 60px;
+    text-align: right;
+    font-size: 12px;
+   
+}
+.left ul li{
+    margin: 10px;
+}
+#line{
+    width: 90%;
+}
+#two-line{
+    width: 95%;
+}
+caption{
+    font-size: 15px;
+    margin-right: 15px;
+    text-align: right;
+    font-weight: bolder;
+    color: #164c82;
+    text-transform: uppercase;
+}
+.img-1{
+    width: 100px;
+    height: 100px;
+}
+/*---------------------------------*/
+.main-img{
+    position: relative;
+    width: 100%;
+    margin: 65px auto;
+    
+
+}
+.heading{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    color: white;
+    top: 40%;
+    position: absolute;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 195px;
+    text-transform: uppercase;
+}
+.button{
+    float: left;
+    position: absolute;
+    top: 55%;
+    padding-left: 500px;
+    
+}
+.btn{
+    font-weight: bolder;
+    font-size: 5px;
+    padding: 10px 30px;
+    border: 2px solid white;
+    background: white;
+    text-decoration: none;
+    color: black;
+}
+.btn:hover{
+    border: 2px solid black;
+}
+.text{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 5px;
+}
+.text img{
+    width: 120px;
+}
+
+.picture{
+    text-align: center;
+}
+.picture img{
+    width: 660px;
+    height: 260px;
+    
+}
+.sentence span{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sentence{
+    margin: 70px;
+    text-align: center;
+}
+
+ul.pictures{
+    text-align: center;
+}
+ul.pictures li{
+    display: inline-block;
+    list-style-type: none;
+}
+ul.descover li{
+    display: inline-block;
+    list-style-type: none;
+}
+ul.pictures li a{
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
+}
+ul.pictures li a img{
+    width: 312px;
+    height: 300px;
+}
+.picture-type{
+    text-align: center;
+}
+span{
+    font-size: 15px;
+}
+
+.descover{
+    margin-top: 70px;
+    text-align: center;
+    
+}
+ul.descover li a{
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
+}
+ul.descover li a img{
+    width: 650px;
+    height: 400px;
+}
+ul.descover-two li{
+    display: inline-block;
+    list-style-type: none;
+}
+.descover-two{
+    margin-top: 70px;
+    
+}
+ul.descover-two li a{
+    padding: 15px 15px;
+    text-decoration: none;
+    color: black;
+}
+ul.descover-two li a img{
+    width: 430px;
+    height: 300px;
+}
+p{
+    text-align: center;
+    font-weight: bolder;
+}
+#small{
+    text-align: center;
+    font-size: 10px;
+}
+.btn-descover{
+    padding-left: 50px;
+    margin-top: 10px;
+    
+}
+.btn-descover .btn-descoveer{
+    padding: 10px 20px;
+    border: 1px solid #333;
+    background: #333;
+}
+.btn-descoveer:hover{
+    border: 1px solid black;
+    background: black;
+
+}
+ul.descover li a.btn-descoveer{
+    color: white;
+}
+/*--------------------------------------------*/
+
+.descover-two{
+    text-align: center;
+}
+.btn-descover-two{
+    padding-left: 50px;
+    margin-top: 10px;
+}
+.btn-descover-two .btn-descoveer-two{
+    padding: 10px 20px;
+    border: 1px solid #333;
+    background: #333;
+}
+.btn-descoveer-two:hover{
+    border: 1px solid black;
+    background: black;
+
+}
+ul.descover-two li a.btn-descoveer-two{
+    color: white;
+}
+
+footer{
+    padding: 20px;
+    text-align: right;
+    background: rgb(233, 232, 232);
+    margin-top: 100px;
+}
+
+
+
+
+
+
