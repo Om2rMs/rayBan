@@ -1,40 +1,46 @@
-*{ 
-    margin: 0; 
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     font-family: sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: white;
 }
-.clearfix{
-     clear: both;
+
+.clearfix {
+    clear: both;
 }
-.logo{
+
+.logo {
     margin-left: 40px;
     height: auto;
     clear: both;
     position: relative;
     z-index: 999;
 }
-.wrapper{
+
+.wrapper {
     left: 0;
     top: 0;
     border-top: 0;
     position: fixed;
     z-index: 100;
     width: 100%;
-    
+
 }
-nav{
+
+nav {
     width: 100%;
     position: absolute;
     background-color: white;
     font-size: 18px;
 }
-nav > ul{
+
+nav>ul {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -45,20 +51,23 @@ nav > ul{
     margin: 0 auto;
     padding: 0;
 }
-nav a{
+
+nav a {
     display: block;
     color: black;
     text-decoration: none;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     transition: 0.5s;
 }
-nav > ul > li > a{
+
+nav>ul>li>a {
     padding: 20px 25px;
     margin-left: 2px;
 }
+
 /*
 nav ul>li.wrapper > a:after{
     position: relative;
@@ -68,35 +77,41 @@ nav ul>li.wrapper > a:after{
     margin-right: 8px;
 
 }*/
-nav > ul > li:hover{
+nav>ul>li:hover {
     text-decoration: underline;
 
 }
-.right tr td a:hover{
-    text-decoration: underline;
-}
-.under-two tr td a:hover{
-    text-decoration: underline;
-}
-.under tr td a:hover{
+
+.right tr td a:hover {
     text-decoration: underline;
 }
 
-.picture-type > span:hover{
+.under-two tr td a:hover {
+    text-decoration: underline;
+}
+
+.under tr td a:hover {
+    text-decoration: underline;
+}
+
+.picture-type>span:hover {
     color: #333;
 }
-.left > ul > li > a:hover{
+
+.left>ul>li>a:hover {
     color: blue;
 }
-nav > ul > li#lloogg:hover{
+
+nav>ul>li#lloogg:hover {
     border: none;
     background-color: white;
 }
-nav ul.menu-area{
-    
+
+nav ul.menu-area {
+
     background: white;
     border-top: 5px solid #164c82;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
     z-index: 1;
     position: absolute;
     display: -webkit-flex;
@@ -109,48 +124,56 @@ nav ul.menu-area{
     top: -9999px;
     left: 0;
 }
-nav ul li:hover ul.menu-area{
+
+nav ul li:hover ul.menu-area {
     top: 100%;
 }
 
-nav ul.menu-area table tr td{
+nav ul.menu-area table tr td {
     padding: 10px;
     text-align: center;
     font-size: 12px;
-      
+
 }
-.right{
-    padding :20px ;
+
+.right {
+    padding: 20px;
     margin: 20px;
     width: 50%;
     margin-left: 200px;
-    
+
 }
-.under{
+
+.under {
     width: 250px;
     margin-left: 10px;
 }
-.under-two{
+
+.under-two {
     margin-left: 210px;
 }
 
-.left{
+.left {
     margin-left: 100px;
     padding: 60px;
     text-align: right;
     font-size: 12px;
-   
+
 }
-.left ul li{
+
+.left ul li {
     margin: 10px;
 }
-#line{
+
+#line {
     width: 90%;
 }
-#two-line{
+
+#two-line {
     width: 95%;
 }
-caption{
+
+caption {
     font-size: 15px;
     margin-right: 15px;
     text-align: right;
@@ -158,21 +181,24 @@ caption{
     color: #164c82;
     text-transform: uppercase;
 }
-.img-1{
+
+.img-1 {
     width: 100px;
     height: 100px;
 }
+
 /*---------------------------------*/
-.main-img{
+.main-img {
     position: relative;
     width: 100%;
     margin: 65px auto;
-    
+
 
 }
-.heading{
+
+.heading {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+
     color: white;
     top: 40%;
     position: absolute;
@@ -181,14 +207,16 @@ caption{
     padding-left: 195px;
     text-transform: uppercase;
 }
-.button{
+
+.button {
     float: left;
     position: absolute;
     top: 55%;
     padding-left: 500px;
-    
+
 }
-.btn{
+
+.btn {
     font-weight: bolder;
     font-size: 5px;
     padding: 10px 30px;
@@ -197,154 +225,177 @@ caption{
     text-decoration: none;
     color: black;
 }
-.btn:hover{
+
+.btn:hover {
     border: 2px solid black;
 }
-.text{
+
+.text {
     padding: 0;
     margin: 0;
     text-align: center;
     font-size: 5px;
 }
-.text img{
+
+.text img {
     width: 120px;
 }
 
-.picture{
+.picture {
     text-align: center;
 }
-.picture img{
+
+.picture img {
     width: 660px;
-    height: 260px;
-    
+    height: 360px;
+
 }
-.sentence span{
+
+.sentence span {
     text-transform: uppercase;
     font-size: 30px;
     font-weight: bolder;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.sentence{
+
+.sentence {
     margin: 70px;
     text-align: center;
 }
 
-ul.pictures{
+ul.pictures {
     text-align: center;
 }
-ul.pictures li{
+
+ul.pictures li {
     display: inline-block;
     list-style-type: none;
 }
-ul.descover li{
+
+ul.descover li {
     display: inline-block;
     list-style-type: none;
 }
-ul.pictures li a{
+
+ul.pictures li a {
     padding: 15px 15px;
     text-decoration: none;
     color: black;
 }
-ul.pictures li a img{
+
+ul.pictures li a img {
     width: 312px;
     height: 300px;
 }
-.picture-type{
+
+.picture-type {
     text-align: center;
 }
-span{
+
+span {
     font-size: 15px;
 }
 
-.descover{
+.descover {
     margin-top: 70px;
     text-align: center;
-    
+
 }
-ul.descover li a{
+
+ul.descover li a {
     padding: 15px 15px;
     text-decoration: none;
     color: black;
 }
-ul.descover li a img{
+
+ul.descover li a img {
     width: 650px;
     height: 400px;
 }
-ul.descover-two li{
+
+ul.descover-two li {
     display: inline-block;
     list-style-type: none;
 }
-.descover-two{
+
+.descover-two {
     margin-top: 70px;
-    
+
 }
-ul.descover-two li a{
+
+ul.descover-two li a {
     padding: 15px 15px;
     text-decoration: none;
     color: black;
 }
-ul.descover-two li a img{
+
+ul.descover-two li a img {
     width: 430px;
     height: 300px;
 }
-p{
+
+p {
     text-align: center;
     font-weight: bolder;
 }
-#small{
+
+#small {
     text-align: center;
     font-size: 10px;
 }
-.btn-descover{
+
+.btn-descover {
     padding-left: 50px;
     margin-top: 10px;
-    
+
 }
-.btn-descover .btn-descoveer{
+
+.btn-descover .btn-descoveer {
     padding: 10px 20px;
     border: 1px solid #333;
     background: #333;
 }
-.btn-descoveer:hover{
+
+.btn-descoveer:hover {
     border: 1px solid black;
     background: black;
 
 }
-ul.descover li a.btn-descoveer{
+
+ul.descover li a.btn-descoveer {
     color: white;
 }
+
 /*--------------------------------------------*/
 
-.descover-two{
+.descover-two {
     text-align: center;
 }
-.btn-descover-two{
+
+.btn-descover-two {
     padding-left: 50px;
     margin-top: 10px;
 }
-.btn-descover-two .btn-descoveer-two{
+
+.btn-descover-two .btn-descoveer-two {
     padding: 10px 20px;
     border: 1px solid #333;
     background: #333;
 }
-.btn-descoveer-two:hover{
+
+.btn-descoveer-two:hover {
     border: 1px solid black;
     background: black;
 
 }
-ul.descover-two li a.btn-descoveer-two{
+
+ul.descover-two li a.btn-descoveer-two {
     color: white;
 }
 
-footer{
+footer {
     padding: 20px;
     text-align: right;
     background: rgb(233, 232, 232);
     margin-top: 100px;
 }
-
-
-
-
-
-
